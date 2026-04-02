@@ -1,0 +1,21 @@
+{
+  "name": "OfficeMaker Create Document",
+  "method": "POST",
+  "url": "https://free.officemaker.ai/gpt/v1/create-document",
+  "headers": [
+    {
+      "name": "Content-Type",
+      "value": "application/json"
+    }
+  ],
+  "body": {
+    "document_type": "word",
+    "file_name": "make-ai-letter",
+    "document_json": "{\"type\":\"document\",\"content\":{\"children\":[{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"text\":\"Dear Customer,\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"text\":\"This document was created from the OfficeMaker Make starter.\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"text\":\"Kind regards,\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"text\":\"OfficeMaker\"}]}]}}"
+  },
+  "notes": [
+    "Use this as the starter payload for a Make HTTP module.",
+    "Keep POST body fields in snake_case.",
+    "document_json must be a JSON string, not a nested object."
+  ]
+}
