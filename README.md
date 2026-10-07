@@ -11,6 +11,9 @@ Use Make for visual orchestration and branching. Use OfficeMaker when the workfl
 - [OfficeMaker](https://officemaker.ai/)
 - [AI workflow automation tools](https://officemaker.ai/ai-workflow-automation-tools)
 - [Document generation API](https://officemaker.ai/document-generation-api)
+
+- [OfficeMaker evidence hub](https://officemaker.ai/evidence)
+- [Token-efficiency methodology](https://officemaker.ai/evidence/token-efficiency-methodology)
 - [MCP document generation](https://officemaker.ai/mcp-document-generation)
 - [AI document workflow automation tools](https://officemaker.ai/blog/best-ai-document-workflow-automation-tools)
 
